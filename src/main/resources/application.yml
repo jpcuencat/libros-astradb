@@ -1,4 +1,10 @@
+datadump.location: 
+  author: test-authors.txt
+  works: test-works.txt
+
 spring:
+  main:
+    allow-circular-references: true
   data:
     cassandra:
         keyspace-name: main 
@@ -20,3 +26,5 @@ astra.db:
     region: us-east1
     keyspace: main
     application.token: AstraCS:MJMaBExFupXpsvUUSNKSYaMH:53df10cb61742863348ee8f0a4e9e86105cf9a2868982ff87a85bb064b67899f
+
+
