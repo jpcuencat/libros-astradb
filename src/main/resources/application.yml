@@ -1,6 +1,6 @@
 datadump.location: 
-  author: test-authors.txt
-  works: test-works.txt
+  author: D:\astradb\libreria-astradb\libreria\src\main\resources\datos\test-authors.txt  
+  works: D:\astradb\libreria-astradb\libreria\src\main\resources\datos\test-works.txt
 
 spring:
   main:
@@ -10,7 +10,7 @@ spring:
         keyspace-name: main 
         username: MJMaBExFupXpsvUUSNKSYaMH
         password: 3h,-iaeAO+OUT5Mo8-r34rCZ.v5i5F+Dvj2XUs6Na+4tihXT,d,oT2yhXB55C7WOQT+,6Ukmw7s+1WqkCHW0_UXj,8f5_5_87q2M7egSArv6XFPNju4mpAJrzALu3FAn
-        schema-action: create-if-not-exists
+        schema-action: recreate
         request:
             timeout: 10s
         connection:
